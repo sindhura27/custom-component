@@ -1,0 +1,8 @@
+<div class="chips">
+    <app-input-element [items]="items" (remove)="removeItem($event)"></app-input-element>
+</div>
+<form>
+    <div >
+        <textarea class="textArea" name="testing" [(ngModel)]="testing" placeholder="Enter Input tags..." (keyup)="test($event)"></textarea>
+    </div>
+</form>   
